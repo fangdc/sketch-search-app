@@ -1,0 +1,336 @@
+{
+  "features" : [
+    "refractivity",
+    "specular-location"
+  ],
+  "fill-specializations" : [
+    {
+      "value" : "system-light"
+    },
+    {
+      "appearance" : "dark",
+      "value" : "system-dark"
+    }
+  ],
+  "groups" : [
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "hidden" : true,
+          "image-name" : "位图 2.png",
+          "name" : "位图 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -52
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "位图.png",
+          "name" : "位图",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -52
+            ]
+          }
+        }
+      ],
+      "position" : {
+        "scale" : 0.9,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "refractivity" : {
+        "depth" : 0,
+        "enabled" : false,
+        "strength" : -0.0038671875
+      },
+      "shadow" : {
+        "kind" : "none",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.8
+      }
+    },
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "linear-gradient" : [
+                  "display-p3:0.00000,0.00000,0.00000,0.16000",
+                  "srgb:1.00000,0.57637,0.00000,0.40000"
+                ]
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:1.00000,1.00000,1.00000,0.40000",
+                  "srgb:1.00000,1.00000,1.00000,0.10000"
+                ]
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "display-p3:0.00000,0.00000,0.00000,0.68779"
+              }
+            }
+          ],
+          "hidden" : false,
+          "image-name" : "形状结合备份.svg",
+          "name" : "形状结合备份",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "linear-gradient" : [
+                  "display-p3:0.00000,0.00000,0.00000,0.20000",
+                  "extended-srgb:0.00000,0.53333,1.00000,0.40000"
+                ]
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "linear-gradient" : [
+                  "display-p3:0.94364,0.94699,1.00000,0.52647",
+                  "display-p3:0.58765,0.74167,0.96783,0.40000"
+                ]
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "linear-gradient" : [
+                  "display-p3:0.95209,0.95926,1.00000,1.00000",
+                  "extended-srgb:0.00000,0.53333,1.00000,0.40000"
+                ]
+              }
+            }
+          ],
+          "hidden" : true,
+          "image-name" : "形状结合 3.svg",
+          "name" : "形状结合 3",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "position" : {
+        "scale" : 0.9,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "refractivity" : {
+        "depth" : 0,
+        "enabled" : false,
+        "strength" : -0.0038671875
+      },
+      "shadow" : {
+        "kind" : "none",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.8
+      }
+    },
+    {
+      "blend-mode" : "normal",
+      "blur-material" : 0.1,
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "srgb:1.00000,0.57637,0.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "srgb:1.00000,0.57637,0.00000,1.00000"
+              }
+            }
+          ],
+          "image-name" : "矩形 2.svg",
+          "name" : "矩形 2",
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.50668,0.68933,0.96783,1.00000"
+              }
+            }
+          ],
+          "hidden" : true,
+          "image-name" : "矩形.svg",
+          "name" : "矩形",
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "name" : "Group",
+      "position" : {
+        "scale" : 0.9,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "refractivity" : {
+        "depth" : 0.0973046875,
+        "enabled" : true,
+        "strength" : -1
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.8
+      }
+    },
+    {
+      "blur-material" : null,
+      "hidden" : false,
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "srgb:1.00000,0.57637,0.00000,0.40000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:1.00000,0.57637,0.00000,0.50000",
+                  "srgb:1.00000,0.57637,0.00000,0.80000"
+                ]
+              }
+            }
+          ],
+          "image-name" : "形状结合 4.svg",
+          "name" : "形状结合 4",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              22.22222222222217
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "extended-srgb:0.00000,0.53333,1.00000,0.40000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.46038,0.66350,0.96783,0.71348"
+              }
+            }
+          ],
+          "hidden" : true,
+          "image-name" : "形状结合.svg",
+          "name" : "形状结合",
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              4
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "name" : "Group",
+      "position" : {
+        "scale" : 0.9,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "refractivity" : {
+        "depth" : 0,
+        "enabled" : true,
+        "strength" : 0
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.2
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 1
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

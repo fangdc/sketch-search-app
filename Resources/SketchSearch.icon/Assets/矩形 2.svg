@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="728px" height="970px" viewBox="0 0 728 970" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5886FF" offset="0%"></stop>
+            <stop stop-color="#4A60B2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M317.555408,93 L706.444592,93 C742.105342,93 755.036791,96.7130244 768.073828,103.685308 C781.110865,110.657592 791.342408,120.889135 798.314692,133.926172 C805.286976,146.963209 809,159.894658 809,195.555408 L809,826.444592 C809,862.105342 805.286976,875.036791 798.314692,888.073828 C791.342408,901.110865 781.110865,911.342408 768.073828,918.314692 C755.036791,925.286976 742.105342,929 706.444592,929 L317.555408,929 C281.894658,929 268.963209,925.286976 255.926172,918.314692 C242.889135,911.342408 232.657592,901.110865 225.685308,888.073828 C218.713024,875.036791 215,862.105342 215,826.444592 L215,195.555408 C215,159.894658 218.713024,146.963209 225.685308,133.926172 C232.657592,120.889135 242.889135,110.657592 255.926172,103.685308 C268.963209,96.7130244 281.894658,93 317.555408,93 Z" id="path-2"></path>
+        <filter x="-17.3%" y="-11.8%" width="134.5%" height="124.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="33.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形" transform="translate(-148, -30)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
