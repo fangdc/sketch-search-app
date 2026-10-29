@@ -46,7 +46,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/fangdc/sketch-search-app/releases/latest) 下载 `SketchSearch-1.0.dmg`，打开后把 **SketchSearch.app** 拖到「应用程序」。
+1. 从 [Releases](https://github.com/fangdc/sketch-search-app/releases/latest) 下载 `SketchSearch-1.0.1.dmg`，打开后把 **SketchSearch.app** 拖到「应用程序」。
 2. 没有 Apple 开发者证书签名，首次打开会被拦；用下面任意一种方式放行（只需一次）：
    - **方式一（终端）**：`xattr -dr com.apple.quarantine /Applications/SketchSearch.app`
    - **方式二（不用终端）**：双击 →「无法打开」→「完成」→ 系统设置 → 隐私与安全性 → 仍要打开。

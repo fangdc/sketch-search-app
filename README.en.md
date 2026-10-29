@@ -46,7 +46,7 @@ SketchSearch builds a local index of your `.sketch` files by parsing Sketch's zi
 
 ## Installation
 
-1. Download `SketchSearch-1.0.dmg` from [Releases](https://github.com/fangdc/sketch-search-app/releases/latest), open it, and drag **SketchSearch.app** into Applications.
+1. Download `SketchSearch-1.0.1.dmg` from [Releases](https://github.com/fangdc/sketch-search-app/releases/latest), open it, and drag **SketchSearch.app** into Applications.
 2. The app is not signed with an Apple Developer certificate, so the first launch is blocked. Allow it once with either method:
    - **Terminal**: `xattr -dr com.apple.quarantine /Applications/SketchSearch.app`
    - **Without Terminal**: double-click → "Cannot be opened" → Done → System Settings → Privacy & Security → Open Anyway.

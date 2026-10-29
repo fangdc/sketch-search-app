@@ -13,7 +13,7 @@ cd "$(dirname "$0")"
 export DEVELOPER_DIR="${DEVELOPER_DIR:-/Applications/Xcode.app/Contents/Developer}"
 
 APP_NAME="SketchSearch"
-VERSION="1.0"
+VERSION="1.0.1"
 MIN_MACOS="14.0"
 BUILD_DIR="build"
 DIST_DIR="dist"

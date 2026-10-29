@@ -231,7 +231,8 @@ struct SettingsView: View {
                 VStack(spacing: 8) {
                     AppLogoView(size: 64)
                     Text("SketchSearch").font(.title3.weight(.semibold))
-                    Text("版本 1.0").font(.caption).foregroundStyle(.secondary)
+                    Text("版本 " + (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"))
+                    .font(.caption).foregroundStyle(.secondary)
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 10)
